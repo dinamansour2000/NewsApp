@@ -7,3 +7,4 @@ Constants file included for easily changing base url and remaining parts of the 
 
 Maintaible design architectural pattern using clean code.
 
+Implemented pull to refresh Loaded News from Api
