@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Home"
+      name = "Home">
+      <Group
+         location = "group:Database"
+         name = "Database">
+         <Group
+            location = "group:Models"
+            name = "Models">
+            <FileRef
+               location = "group:LatestCoursesModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:EmptyModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DataModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MainLatestCoursesModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ReviewsModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CurriculumModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CategoriesModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CourseModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:InstructorModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MemberModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:InstructorsModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:NewsLetterModel.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Requests"
+            name = "Requests">
+            <FileRef
+               location = "group:LatestCoursesDatabaseRequest.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:DBManager"
+            name = "DBManager">
+            <FileRef
+               location = "group:LatestCoursesDBManager.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Resources"
+         name = "Resources">
+         <Group
+            location = "group:Images"
+            name = "Images">
+            <FileRef
+               location = "group:&#x62c;&#x62f;&#x64a;&#x62f; &#x627;&#x644;&#x62f;&#x648;&#x631;&#x627;&#x62a;@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:&#x62c;&#x62f;&#x64a;&#x62f; &#x627;&#x644;&#x62f;&#x648;&#x631;&#x627;&#x62a;@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:SubmitPopup.png">
+            </FileRef>
+            <FileRef
+               location = "group:Subscribe for more.@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:&#x628;&#x627;&#x645;&#x643;&#x627;&#x646;&#x643; &#x645;&#x62a;&#x627;&#x628;&#x639;&#x629; &#x627;&#x654;&#x62d;&#x62f;&#x62b; &#x627;&#x644;&#x62f;&#x648;&#x631;&#x627;&#x62a;  &#x627;&#x644;&#x627;&#x654;&#x646; &#x628;&#x643;&#x644; &#x633;&#x647;&#x648;&#x644;&#x629;.png">
+            </FileRef>
+            <FileRef
+               location = "group:Subscribe for more.@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:&#x62c;&#x62f;&#x64a;&#x62f; &#x627;&#x644;&#x62f;&#x648;&#x631;&#x627;&#x62a;.png">
+            </FileRef>
+            <FileRef
+               location = "group:shopping-cart@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Subscribe for more..png">
+            </FileRef>
+            <FileRef
+               location = "group:shopping-cart.png">
+            </FileRef>
+            <FileRef
+               location = "group:Header.png">
+            </FileRef>
+            <FileRef
+               location = "group:&#x628;&#x627;&#x645;&#x643;&#x627;&#x646;&#x643; &#x645;&#x62a;&#x627;&#x628;&#x639;&#x629; &#x627;&#x654;&#x62d;&#x62f;&#x62b; &#x627;&#x644;&#x62f;&#x648;&#x631;&#x627;&#x62a;  &#x627;&#x644;&#x627;&#x654;&#x646; &#x628;&#x643;&#x644; &#x633;&#x647;&#x648;&#x644;&#x629;@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Header@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Header@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:&#x628;&#x627;&#x645;&#x643;&#x627;&#x646;&#x643; &#x645;&#x62a;&#x627;&#x628;&#x639;&#x629; &#x627;&#x654;&#x62d;&#x62f;&#x62b; &#x627;&#x644;&#x62f;&#x648;&#x631;&#x627;&#x62a;  &#x627;&#x644;&#x627;&#x654;&#x646; &#x628;&#x643;&#x644; &#x633;&#x647;&#x648;&#x644;&#x629;@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:shopping-cart@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:SubmitPopup@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:kahoot@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:cancel-symbol-inside-a-circle@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:cancel-symbol-inside-a-circle@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:kahoot@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:kahoot.png">
+            </FileRef>
+            <FileRef
+               location = "group:cancel-symbol-inside-a-circle.png">
+            </FileRef>
+            <FileRef
+               location = "group:SubmitPopup@2x.png">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Backend"
+         name = "Backend">
+         <Group
+            location = "group:ViewModel"
+            name = "ViewModel">
+            <FileRef
+               location = "group:LatestCoursesViewModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:NewsLetterViewModel.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:BackendManager"
+            name = "BackendManager">
+            <FileRef
+               location = "group:LatestCoursesBackendManager.swift">
+            </FileRef>
+            <FileRef
+               location = "group:NewsLetterBackendManager.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Requests"
+            name = "Requests">
+            <FileRef
+               location = "group:BaseNewsLetterRequest.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BaseLatestCoursesRequest.swift">
+            </FileRef>
+            <FileRef
+               location = "group:NewsLetterRequest.swift">
+            </FileRef>
+            <FileRef
+               location = "group:LatestCoursesRequest.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Views"
+         name = "Views">
+         <Group
+            location = "group:ViewControllers"
+            name = "ViewControllers">
+            <FileRef
+               location = "group:HomeCategoryViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MainViewController.xib">
+            </FileRef>
+            <FileRef
+               location = "group:MainViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HomeViewController.xib">
+            </FileRef>
+            <FileRef
+               location = "group:HomeViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HomeCategoryViewController.xib">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Views"
+            name = "Views">
+            <FileRef
+               location = "group:HeaderCollectionViewCell.xib">
+            </FileRef>
+            <FileRef
+               location = "group:CoursesCollectionViewCell.xib">
+            </FileRef>
+            <FileRef
+               location = "group:HeaderCollectionViewCell.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CoursesCollectionViewCell.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Helpers"
+         name = "Helpers">
+         <Group
+            location = "group:Constants"
+            name = "Constants">
+            <FileRef
+               location = "group:HomeConstant.swift">
+            </FileRef>
+            <FileRef
+               location = "group:NewsLetterConstant.swift">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <FileRef
+      location = "self:NewsApp.xcodeproj">
+   </FileRef>
+</Workspace>

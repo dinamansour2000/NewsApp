@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2LZ-Fz-BC7">
+                                <rect key="frame" x="20" y="300" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="iID-BB-QmH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All News In One App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tif-KA-ezH">
+                                <rect key="frame" x="20" y="347" width="374" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="9rA-ho-Ndi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newspaper.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Kp-g4-ZDs">
+                                <rect key="frame" x="20" y="384" width="374" height="221"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.19325798749923706" green="0.8003806471824646" blue="0.8869328498840332" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2Kp-g4-ZDs" firstAttribute="top" secondItem="tif-KA-ezH" secondAttribute="bottom" constant="8" symbolic="YES" id="5vT-rJ-smh"/>
+                            <constraint firstItem="2LZ-Fz-BC7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="6BC-L9-g9D"/>
+                            <constraint firstItem="2LZ-Fz-BC7" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="6Kk-8r-gI2"/>
+                            <constraint firstItem="tif-KA-ezH" firstAttribute="leading" secondItem="2Kp-g4-ZDs" secondAttribute="leading" id="EkT-PS-Gyz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2Kp-g4-ZDs" secondAttribute="bottom" constant="257" id="Onv-Nd-qxf"/>
+                            <constraint firstItem="2LZ-Fz-BC7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="256" id="Ujr-gJ-57a"/>
+                            <constraint firstItem="tif-KA-ezH" firstAttribute="top" secondItem="2LZ-Fz-BC7" secondAttribute="bottom" constant="7" id="aQI-3Y-Hfv"/>
+                            <constraint firstItem="tif-KA-ezH" firstAttribute="trailing" secondItem="2Kp-g4-ZDs" secondAttribute="trailing" id="nv1-Hn-aRv"/>
+                            <constraint firstItem="2LZ-Fz-BC7" firstAttribute="leading" secondItem="tif-KA-ezH" secondAttribute="leading" id="tSm-xU-e90"/>
+                            <constraint firstItem="2LZ-Fz-BC7" firstAttribute="trailing" secondItem="tif-KA-ezH" secondAttribute="trailing" id="x3D-Jr-lLe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="newspaper.png" width="2405" height="1604"/>
+    </resources>
+</document>
